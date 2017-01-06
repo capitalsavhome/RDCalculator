@@ -17,220 +17,202 @@
         android:layout_height="wrap_content"
         android:layout_weight="4"></LinearLayout>
 
-    <LinearLayout
+    <TableLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="vertical"
-        android:layout_weight="10">
-        <LinearLayout
+        android:layout_weight="10"
+        android:stretchColumns="*">
+        <TableRow
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="horizontal"
             android:layout_weight="1">
             <Button
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
-                android:layout_weight="1"
                 android:layout_marginLeft="1dp"
                 android:layout_marginRight="1dp"
                 android:layout_marginTop="0dp"
                 android:layout_marginBottom="1dp"
-                android:background="@color/leftButtonColor"/>
+                android:background="@color/leftButtonColor"
+                android:text="@string/AC"/>
             <Button
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
-                android:layout_weight="1"
                 android:layout_marginLeft="0dp"
                 android:layout_marginRight="1dp"
                 android:layout_marginTop="0dp"
                 android:layout_marginBottom="1dp"
-                android:background="@color/leftButtonColor"/>
+                android:background="@color/leftButtonColor"
+                android:text="--"/>
             <Button
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
-                android:layout_weight="1"
                 android:layout_marginLeft="0dp"
                 android:layout_marginRight="1dp"
                 android:layout_marginTop="0dp"
                 android:layout_marginBottom="1dp"
-                android:background="@color/leftButtonColor"/>
+                android:background="@color/leftButtonColor"
+                android:text="@string/percent"/>
             <Button
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
-                android:layout_weight="1"
                 android:layout_marginLeft="0dp"
                 android:layout_marginRight="1dp"
                 android:layout_marginTop="0dp"
                 android:layout_marginBottom="1dp"
-                android:background="@color/rightButtonColor"/>
-        </LinearLayout>
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="horizontal"
+                android:background="@color/rightButtonColor"
+                android:text="@string/divide"/>
+        </TableRow>
+        <TableRow
             android:layout_weight="1">
             <Button
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
-                android:layout_weight="1"
                 android:layout_marginLeft="1dp"
                 android:layout_marginRight="1dp"
                 android:layout_marginTop="0dp"
                 android:layout_marginBottom="1dp"
-                android:background="@color/leftButtonColor"/>
+                android:background="@color/leftButtonColor"
+                android:text="@string/digit_7"/>
             <Button
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
-                android:layout_weight="1"
                 android:layout_marginLeft="0dp"
                 android:layout_marginRight="1dp"
                 android:layout_marginTop="0dp"
                 android:layout_marginBottom="1dp"
-                android:background="@color/leftButtonColor"/>
+                android:background="@color/leftButtonColor"
+                android:text="@string/digit_8"/>
             <Button
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
-                android:layout_weight="1"
                 android:layout_marginLeft="0dp"
                 android:layout_marginRight="1dp"
                 android:layout_marginTop="0dp"
                 android:layout_marginBottom="1dp"
-                android:background="@color/leftButtonColor"/>
+                android:background="@color/leftButtonColor"
+                android:text="@string/digit_9"/>
             <Button
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
-                android:layout_weight="1"
                 android:layout_marginLeft="0dp"
                 android:layout_marginRight="1dp"
                 android:layout_marginTop="0dp"
                 android:layout_marginBottom="1dp"
-                android:background="@color/rightButtonColor"/>
-        </LinearLayout>
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="horizontal"
+                android:background="@color/rightButtonColor"
+                android:text="@string/multiple"/>
+        </TableRow>
+        <TableRow
             android:layout_weight="1">
             <Button
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
-                android:layout_weight="1"
                 android:layout_marginLeft="1dp"
                 android:layout_marginRight="1dp"
                 android:layout_marginTop="0dp"
                 android:layout_marginBottom="1dp"
-                android:background="@color/leftButtonColor"/>
+                android:background="@color/leftButtonColor"
+                android:text="@string/digit_4"/>
             <Button
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
-                android:layout_weight="1"
                 android:layout_marginLeft="0dp"
                 android:layout_marginRight="1dp"
                 android:layout_marginTop="0dp"
                 android:layout_marginBottom="1dp"
-                android:background="@color/leftButtonColor"/>
+                android:background="@color/leftButtonColor"
+                android:text="@string/digit_5"/>
             <Button
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
-                android:layout_weight="1"
                 android:layout_marginLeft="0dp"
                 android:layout_marginRight="1dp"
                 android:layout_marginTop="0dp"
                 android:layout_marginBottom="1dp"
-                android:background="@color/leftButtonColor"/>
+                android:background="@color/leftButtonColor"
+                android:text="@string/digit_6"/>
             <Button
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
-                android:layout_weight="1"
                 android:layout_marginLeft="0dp"
                 android:layout_marginRight="1dp"
                 android:layout_marginTop="0dp"
                 android:layout_marginBottom="1dp"
-                android:background="@color/rightButtonColor"/>
-        </LinearLayout>
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="horizontal"
+                android:background="@color/rightButtonColor"
+                android:text="@string/minus"/>
+        </TableRow>
+        <TableRow
             android:layout_weight="1">
             <Button
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
-                android:layout_weight="1"
                 android:layout_marginLeft="1dp"
                 android:layout_marginRight="1dp"
                 android:layout_marginTop="0dp"
                 android:layout_marginBottom="1dp"
-                android:background="@color/leftButtonColor"/>
+                android:background="@color/leftButtonColor"
+                android:text="@string/digit_1"/>
             <Button
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
-                android:layout_weight="1"
                 android:layout_marginLeft="0dp"
                 android:layout_marginRight="1dp"
                 android:layout_marginTop="0dp"
                 android:layout_marginBottom="1dp"
-                android:background="@color/leftButtonColor"/>
+                android:background="@color/leftButtonColor"
+                android:text="@string/digit_2"/>
+
             <Button
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
-                android:layout_weight="1"
                 android:layout_marginLeft="0dp"
                 android:layout_marginRight="1dp"
                 android:layout_marginTop="0dp"
                 android:layout_marginBottom="1dp"
-                android:background="@color/leftButtonColor"/>
+                android:background="@color/leftButtonColor"
+                android:text="@string/digit_3"
+                android:id="@+id/button" />
+
             <Button
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
-                android:layout_weight="1"
                 android:layout_marginLeft="0dp"
                 android:layout_marginRight="1dp"
                 android:layout_marginTop="0dp"
                 android:layout_marginBottom="1dp"
-                android:background="@color/rightButtonColor"/>
-        </LinearLayout>
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="horizontal"
+                android:background="@color/rightButtonColor"
+                android:text="@string/plus"/>
+        </TableRow>
+        <TableRow
             android:layout_weight="1">
             <Button
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
-                android:layout_weight="1"
-                android:layout_marginLeft="1dp"
-                android:layout_marginRight="1dp"
-                android:layout_marginTop="0dp"
-                android:layout_marginBottom="1dp"
-                android:background="@color/leftButtonColor"/>
-            <Button
-                android:layout_width="wrap_content"
-                android:layout_height="match_parent"
-                android:layout_weight="1"
                 android:layout_marginLeft="0dp"
                 android:layout_marginRight="1dp"
                 android:layout_marginTop="0dp"
-                android:layout_marginBottom="1dp"
-                android:background="@color/leftButtonColor"/>
+                android:layout_marginBottom="0dp"
+                android:background="@color/leftButtonColor"
+                android:layout_span="2"
+                android:text="@string/digit_0"/>
             <Button
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
-                android:layout_weight="1"
                 android:layout_marginLeft="0dp"
                 android:layout_marginRight="1dp"
                 android:layout_marginTop="0dp"
-                android:layout_marginBottom="1dp"
-                android:background="@color/leftButtonColor"/>
+                android:layout_marginBottom="0dp"
+                android:background="@color/leftButtonColor"
+                android:text="@string/dot"/>
             <Button
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
-                android:layout_weight="1"
                 android:layout_marginLeft="0dp"
                 android:layout_marginRight="1dp"
                 android:layout_marginTop="0dp"
-                android:layout_marginBottom="1dp"
-                android:background="@color/rightButtonColor"/>
-        </LinearLayout>
-    </LinearLayout>
+                android:layout_marginBottom="0dp"
+                android:background="@color/rightButtonColor"
+                android:text="@string/equals"/>
+        </TableRow>
+    </TableLayout>
 </LinearLayout>
