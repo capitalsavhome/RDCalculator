@@ -6,5 +6,6 @@
     <color name="mainBackground">#000000</color>
     <color name="leftButtonColor">#CFCDD0</color>
     <color name="rightButtonColor">#FE8335</color>
+    <color name="textColor">#FFFFFF</color>
 
 </resources>

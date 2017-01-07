@@ -15,7 +15,40 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_weight="4"></LinearLayout>
+        android:layout_weight="4"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:textColor="#FFFFFF"
+                android:text="123456789012345+"
+                android:gravity="right"
+                android:layout_weight="1"
+                android:textSize="19dp"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:textColor="#FFFFFF"
+                android:text="123456789012345"
+                android:gravity="right"
+                android:layout_weight="1"
+                android:layout_marginBottom="0px"
+                android:textSize="19dp"/>
+        </LinearLayout>
+
+    </LinearLayout>
 
     <TableLayout
         android:layout_width="match_parent"
@@ -34,7 +67,8 @@
                 android:layout_marginTop="0dp"
                 android:layout_marginBottom="1dp"
                 android:background="@color/leftButtonColor"
-                android:text="@string/AC"/>
+                android:text="@string/AC"
+                android:textSize="14pt"/>
             <Button
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
@@ -43,7 +77,8 @@
                 android:layout_marginTop="0dp"
                 android:layout_marginBottom="1dp"
                 android:background="@color/leftButtonColor"
-                android:text="--"/>
+                android:text="--"
+                android:textSize="14pt"/>
             <Button
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
@@ -61,7 +96,8 @@
                 android:layout_marginTop="0dp"
                 android:layout_marginBottom="1dp"
                 android:background="@color/rightButtonColor"
-                android:text="@string/divide"/>
+                android:text="@string/divide"
+                android:textSize="14pt"/>
         </TableRow>
         <TableRow
             android:layout_weight="1">
@@ -73,7 +109,8 @@
                 android:layout_marginTop="0dp"
                 android:layout_marginBottom="1dp"
                 android:background="@color/leftButtonColor"
-                android:text="@string/digit_7"/>
+                android:text="@string/digit_7"
+                android:textSize="14pt"/>
             <Button
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
@@ -82,7 +119,8 @@
                 android:layout_marginTop="0dp"
                 android:layout_marginBottom="1dp"
                 android:background="@color/leftButtonColor"
-                android:text="@string/digit_8"/>
+                android:text="@string/digit_8"
+                android:textSize="14pt"/>
             <Button
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
@@ -91,7 +129,8 @@
                 android:layout_marginTop="0dp"
                 android:layout_marginBottom="1dp"
                 android:background="@color/leftButtonColor"
-                android:text="@string/digit_9"/>
+                android:text="@string/digit_9"
+                android:textSize="14pt"/>
             <Button
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
@@ -100,7 +139,8 @@
                 android:layout_marginTop="0dp"
                 android:layout_marginBottom="1dp"
                 android:background="@color/rightButtonColor"
-                android:text="@string/multiple"/>
+                android:text="@string/multiple"
+                android:textSize="14pt"/>
         </TableRow>
         <TableRow
             android:layout_weight="1">
@@ -112,7 +152,8 @@
                 android:layout_marginTop="0dp"
                 android:layout_marginBottom="1dp"
                 android:background="@color/leftButtonColor"
-                android:text="@string/digit_4"/>
+                android:text="@string/digit_4"
+                android:textSize="14pt"/>
             <Button
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
@@ -121,7 +162,8 @@
                 android:layout_marginTop="0dp"
                 android:layout_marginBottom="1dp"
                 android:background="@color/leftButtonColor"
-                android:text="@string/digit_5"/>
+                android:text="@string/digit_5"
+                android:textSize="14pt"/>
             <Button
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
@@ -130,7 +172,8 @@
                 android:layout_marginTop="0dp"
                 android:layout_marginBottom="1dp"
                 android:background="@color/leftButtonColor"
-                android:text="@string/digit_6"/>
+                android:text="@string/digit_6"
+                android:textSize="14pt"/>
             <Button
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
@@ -139,7 +182,8 @@
                 android:layout_marginTop="0dp"
                 android:layout_marginBottom="1dp"
                 android:background="@color/rightButtonColor"
-                android:text="@string/minus"/>
+                android:text="@string/minus"
+                android:textSize="14pt"/>
         </TableRow>
         <TableRow
             android:layout_weight="1">
@@ -151,7 +195,8 @@
                 android:layout_marginTop="0dp"
                 android:layout_marginBottom="1dp"
                 android:background="@color/leftButtonColor"
-                android:text="@string/digit_1"/>
+                android:text="@string/digit_1"
+                android:textSize="14pt"/>
             <Button
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
@@ -160,7 +205,8 @@
                 android:layout_marginTop="0dp"
                 android:layout_marginBottom="1dp"
                 android:background="@color/leftButtonColor"
-                android:text="@string/digit_2"/>
+                android:text="@string/digit_2"
+                android:textSize="14pt"/>
 
             <Button
                 android:layout_width="wrap_content"
@@ -171,7 +217,8 @@
                 android:layout_marginBottom="1dp"
                 android:background="@color/leftButtonColor"
                 android:text="@string/digit_3"
-                android:id="@+id/button" />
+                android:id="@+id/button"
+                android:textSize="14pt"/>
 
             <Button
                 android:layout_width="wrap_content"
@@ -181,7 +228,8 @@
                 android:layout_marginTop="0dp"
                 android:layout_marginBottom="1dp"
                 android:background="@color/rightButtonColor"
-                android:text="@string/plus"/>
+                android:text="@string/plus"
+                android:textSize="14pt"/>
         </TableRow>
         <TableRow
             android:layout_weight="1">
@@ -194,7 +242,8 @@
                 android:layout_marginBottom="0dp"
                 android:background="@color/leftButtonColor"
                 android:layout_span="2"
-                android:text="@string/digit_0"/>
+                android:text="@string/digit_0"
+                android:textSize="14pt"/>
             <Button
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
@@ -203,7 +252,8 @@
                 android:layout_marginTop="0dp"
                 android:layout_marginBottom="0dp"
                 android:background="@color/leftButtonColor"
-                android:text="@string/dot"/>
+                android:text="@string/dot"
+                android:textSize="14pt"/>
             <Button
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
@@ -212,7 +262,8 @@
                 android:layout_marginTop="0dp"
                 android:layout_marginBottom="0dp"
                 android:background="@color/rightButtonColor"
-                android:text="@string/equals"/>
+                android:text="@string/equals"
+                android:textSize="14pt"/>
         </TableRow>
     </TableLayout>
 </LinearLayout>
