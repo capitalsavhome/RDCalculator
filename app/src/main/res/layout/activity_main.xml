@@ -26,26 +26,27 @@
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:textColor="#FFFFFF"
-                android:text="123456789012345+"
+                android:text=""
                 android:gravity="right"
                 android:layout_weight="1"
-                android:textSize="19dp"/>
+                android:textSize="19dp"
+                android:id="@+id/firstValueTV"/>
         </LinearLayout>
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:orientation="horizontal"
-            >
+            android:orientation="horizontal">
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:textColor="#FFFFFF"
-                android:text="123456789012345"
+                android:text=""
                 android:gravity="right"
                 android:layout_weight="1"
                 android:layout_marginBottom="0px"
-                android:textSize="19dp"/>
+                android:textSize="19dp"
+                android:id="@+id/secondValueTV"/>
         </LinearLayout>
 
     </LinearLayout>
@@ -68,7 +69,8 @@
                 android:layout_marginBottom="1dp"
                 android:background="@color/leftButtonColor"
                 android:text="@string/AC"
-                android:textSize="14pt"/>
+                android:textSize="14pt"
+                android:onClick="notDigitClick"/>
             <Button
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
@@ -78,7 +80,8 @@
                 android:layout_marginBottom="1dp"
                 android:background="@color/leftButtonColor"
                 android:text="--"
-                android:textSize="14pt"/>
+                android:textSize="14pt"
+                android:onClick="notDigitClick"/>
             <Button
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
@@ -87,7 +90,8 @@
                 android:layout_marginTop="0dp"
                 android:layout_marginBottom="1dp"
                 android:background="@color/leftButtonColor"
-                android:text="@string/percent"/>
+                android:text="@string/percent"
+                android:onClick="notDigitClick"/>
             <Button
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
@@ -97,7 +101,8 @@
                 android:layout_marginBottom="1dp"
                 android:background="@color/rightButtonColor"
                 android:text="@string/divide"
-                android:textSize="14pt"/>
+                android:textSize="14pt"
+                android:onClick="notDigitClick"/>
         </TableRow>
         <TableRow
             android:layout_weight="1">
@@ -110,7 +115,8 @@
                 android:layout_marginBottom="1dp"
                 android:background="@color/leftButtonColor"
                 android:text="@string/digit_7"
-                android:textSize="14pt"/>
+                android:textSize="14pt"
+                android:onClick="digitClick"/>
             <Button
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
@@ -120,7 +126,8 @@
                 android:layout_marginBottom="1dp"
                 android:background="@color/leftButtonColor"
                 android:text="@string/digit_8"
-                android:textSize="14pt"/>
+                android:textSize="14pt"
+                android:onClick="digitClick"/>
             <Button
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
@@ -130,7 +137,8 @@
                 android:layout_marginBottom="1dp"
                 android:background="@color/leftButtonColor"
                 android:text="@string/digit_9"
-                android:textSize="14pt"/>
+                android:textSize="14pt"
+                android:onClick="digitClick"/>
             <Button
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
@@ -140,7 +148,8 @@
                 android:layout_marginBottom="1dp"
                 android:background="@color/rightButtonColor"
                 android:text="@string/multiple"
-                android:textSize="14pt"/>
+                android:textSize="14pt"
+                android:onClick="notDigitClick"/>
         </TableRow>
         <TableRow
             android:layout_weight="1">
@@ -153,7 +162,8 @@
                 android:layout_marginBottom="1dp"
                 android:background="@color/leftButtonColor"
                 android:text="@string/digit_4"
-                android:textSize="14pt"/>
+                android:textSize="14pt"
+                android:onClick="digitClick"/>
             <Button
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
@@ -163,7 +173,8 @@
                 android:layout_marginBottom="1dp"
                 android:background="@color/leftButtonColor"
                 android:text="@string/digit_5"
-                android:textSize="14pt"/>
+                android:textSize="14pt"
+                android:onClick="digitClick"/>
             <Button
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
@@ -173,7 +184,8 @@
                 android:layout_marginBottom="1dp"
                 android:background="@color/leftButtonColor"
                 android:text="@string/digit_6"
-                android:textSize="14pt"/>
+                android:textSize="14pt"
+                android:onClick="digitClick"/>
             <Button
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
@@ -183,7 +195,8 @@
                 android:layout_marginBottom="1dp"
                 android:background="@color/rightButtonColor"
                 android:text="@string/minus"
-                android:textSize="14pt"/>
+                android:textSize="14pt"
+                android:onClick="notDigitClick"/>
         </TableRow>
         <TableRow
             android:layout_weight="1">
@@ -196,7 +209,8 @@
                 android:layout_marginBottom="1dp"
                 android:background="@color/leftButtonColor"
                 android:text="@string/digit_1"
-                android:textSize="14pt"/>
+                android:textSize="14pt"
+                android:onClick="digitClick"/>
             <Button
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
@@ -206,7 +220,8 @@
                 android:layout_marginBottom="1dp"
                 android:background="@color/leftButtonColor"
                 android:text="@string/digit_2"
-                android:textSize="14pt"/>
+                android:textSize="14pt"
+                android:onClick="digitClick"/>
 
             <Button
                 android:layout_width="wrap_content"
@@ -218,7 +233,8 @@
                 android:background="@color/leftButtonColor"
                 android:text="@string/digit_3"
                 android:id="@+id/button"
-                android:textSize="14pt"/>
+                android:textSize="14pt"
+                android:onClick="digitClick"/>
 
             <Button
                 android:layout_width="wrap_content"
@@ -229,7 +245,8 @@
                 android:layout_marginBottom="1dp"
                 android:background="@color/rightButtonColor"
                 android:text="@string/plus"
-                android:textSize="14pt"/>
+                android:textSize="14pt"
+                android:onClick="notDigitClick"/>
         </TableRow>
         <TableRow
             android:layout_weight="1">
@@ -243,7 +260,8 @@
                 android:background="@color/leftButtonColor"
                 android:layout_span="2"
                 android:text="@string/digit_0"
-                android:textSize="14pt"/>
+                android:textSize="14pt"
+                android:onClick="digitClick"/>
             <Button
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
@@ -253,7 +271,8 @@
                 android:layout_marginBottom="0dp"
                 android:background="@color/leftButtonColor"
                 android:text="@string/dot"
-                android:textSize="14pt"/>
+                android:textSize="14pt"
+                android:onClick="digitClick"/>
             <Button
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
@@ -263,7 +282,8 @@
                 android:layout_marginBottom="0dp"
                 android:background="@color/rightButtonColor"
                 android:text="@string/equals"
-                android:textSize="14pt"/>
+                android:textSize="14pt"
+                android:onClick="notDigitClick"/>
         </TableRow>
     </TableLayout>
 </LinearLayout>
